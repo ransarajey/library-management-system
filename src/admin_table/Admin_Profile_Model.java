@@ -19,7 +19,7 @@ public class Admin_Profile_Model {
 						connection=obj_DBConnection_FLY_HIND.getConnection();
 					
 
-						 TimeZone.setDefault(TimeZone.getTimeZone("Asia/Qatar"));
+						 TimeZone.setDefault(TimeZone.getTimeZone("Asia/Colombo"));
 							SimpleDateFormat format = new SimpleDateFormat("dd-MMM-yyyy hh:mm:ss a");
 							 
 							  Date today4 = new Date();

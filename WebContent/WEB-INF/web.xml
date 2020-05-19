@@ -18,7 +18,7 @@
 			
 			<servlet>
 				    <servlet-name>Issue_Book_Student_Controller</servlet-name>
-				    <jsp-file>/school/admin/issue/controller/Issue_Book_Student_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/issue/controller/Issue_Book_Student_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -32,7 +32,7 @@
 			
 			<servlet>
 				    <servlet-name>Issue_Book_From_Student</servlet-name>
-				    <jsp-file>/school/admin/issue/view/Issue_Book_From_Student.jsp</jsp-file>
+				    <jsp-file>/campus/admin/issue/view/Issue_Book_From_Student.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -53,7 +53,7 @@
 			
 			<servlet>
 				    <servlet-name>Delete_Serail_Inventry_Controller</servlet-name>
-				    <jsp-file>/school/admin/inventry/controller/Delete_Serail_Inventry_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/inventry/controller/Delete_Serail_Inventry_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -68,7 +68,7 @@
 			
 				<servlet>
 				    <servlet-name>Edit_Profile_Controller</servlet-name>
-				    <jsp-file>/school/admin/profile/controller/Edit_Profile_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/profile/controller/Edit_Profile_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -81,7 +81,7 @@
 			
 			<servlet>
 				    <servlet-name>Admin_Edit_Profile</servlet-name>
-				    <jsp-file>/school/admin/profile/view/Edit_Profile.jsp</jsp-file>
+				    <jsp-file>/campus/admin/profile/view/Edit_Profile.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -97,7 +97,7 @@
 			
 			<servlet>
 				    <servlet-name>View_All_Pending_History</servlet-name>
-				    <jsp-file>/school/admin/issue/view/View_All_Pending_History.jsp</jsp-file>
+				    <jsp-file>/campus/admin/issue/view/View_All_Pending_History.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -109,7 +109,7 @@
 			
 				<servlet>
 				    <servlet-name>View_All_Students</servlet-name>
-				    <jsp-file>/school/admin/Student/view/View_All_Students.jsp</jsp-file>
+				    <jsp-file>/campus/admin/Student/view/View_All_Students.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -128,7 +128,7 @@
 			
 				<servlet>
 				    <servlet-name>Edit_Author_Controller</servlet-name>
-				    <jsp-file>/school/admin/author/controller/Edit_Author_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/author/controller/Edit_Author_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -143,7 +143,7 @@
 			
 				<servlet>
 				    <servlet-name>Edit_Author</servlet-name>
-				    <jsp-file>/school/admin/author/view/Edit_Author.jsp</jsp-file>
+				    <jsp-file>/campus/admin/author/view/Edit_Author.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -162,7 +162,7 @@
 
 					<servlet>
 				    <servlet-name>Delete_This_Issue_Controller</servlet-name>
-				    <jsp-file>/school/admin/issue/controller/Delete_This_Issue_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/issue/controller/Delete_This_Issue_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -174,7 +174,7 @@
 
  				<servlet>
 				    <servlet-name>Edit_Student_Controller</servlet-name>
-				    <jsp-file>/school/admin/Student/controller/Edit_Student_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/Student/controller/Edit_Student_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -190,7 +190,7 @@
 
  				<servlet>
 				    <servlet-name>Edit_Complete_Details_Of_Student</servlet-name>
-				    <jsp-file>/school/admin/Student/view/Edit_Complete_Details_Of_Student.jsp</jsp-file>
+				    <jsp-file>/campus/admin/Student/view/Edit_Complete_Details_Of_Student.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -205,7 +205,7 @@
  
   <servlet>
 				    <servlet-name>Search_Issue_History</servlet-name>
-				    <jsp-file>/school/admin/issue/view/Search_Issue_History.jsp</jsp-file>
+				    <jsp-file>/campus/admin/issue/view/Search_Issue_History.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -218,7 +218,7 @@
  			
  <servlet>
 				    <servlet-name>View_All_Book</servlet-name>
-				    <jsp-file>/school/admin/book/view/View_All_Book.jsp</jsp-file>
+				    <jsp-file>/campus/admin/book/view/View_All_Book.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -231,7 +231,7 @@
  
  			 <servlet>
 				    <servlet-name>Print_One_Bar_Code</servlet-name>
-				    <jsp-file>/school/admin/inventry/view/Print_One_Bar_Code.jsp</jsp-file>
+				    <jsp-file>/campus/admin/inventry/view/Print_One_Bar_Code.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -246,7 +246,7 @@
  
  	   <servlet>
 				    <servlet-name>Print_Bar_Code</servlet-name>
-				    <jsp-file>/school/admin/inventry/view/Print_Bar_Code.jsp</jsp-file>
+				    <jsp-file>/campus/admin/inventry/view/Print_Bar_Code.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -268,7 +268,7 @@
  
       <servlet>
 				    <servlet-name> Edit_Serail_Inventry_Controller</servlet-name>
-				    <jsp-file>/school/admin/inventry/controller/Edit_Serail_Inventry_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/inventry/controller/Edit_Serail_Inventry_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -279,7 +279,7 @@
      
       <servlet>
 				    <servlet-name>Edit_Serial_Inventry</servlet-name>
-				    <jsp-file>/school/admin/inventry/view/Edit_Serial_Inventry.jsp</jsp-file>
+				    <jsp-file>/campus/admin/inventry/view/Edit_Serial_Inventry.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -292,7 +292,7 @@
      
      <servlet>
 				    <servlet-name>Complete_Issue_History</servlet-name>
-				    <jsp-file>/school/admin/issue/view/Complete_Issue_History.jsp</jsp-file>
+				    <jsp-file>/campus/admin/issue/view/Complete_Issue_History.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -308,7 +308,7 @@
      
     <servlet>
 				    <servlet-name>Update_Issue_Book_Controller</servlet-name>
-				    <jsp-file>/school/admin/issue/controller/Update_Issue_Book_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/issue/controller/Update_Issue_Book_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -324,7 +324,7 @@
    
     <servlet>
 				    <servlet-name>Update_Issue_Book</servlet-name>
-				    <jsp-file>/school/admin/issue/view/Update_Issue_Book.jsp</jsp-file>
+				    <jsp-file>/campus/admin/issue/view/Update_Issue_Book.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -338,7 +338,7 @@
    
    	 <servlet>
 				    <servlet-name>Issue_History_Student</servlet-name>
-				    <jsp-file>/school/admin/issue/view/Issue_History_Student.jsp</jsp-file>
+				    <jsp-file>/campus/admin/issue/view/Issue_History_Student.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -350,7 +350,7 @@
    
    				 <servlet>
 				    <servlet-name>search_bar_form</servlet-name>
-				    <jsp-file>/school/admin/book/view/search_bar_form.jsp</jsp-file>
+				    <jsp-file>/campus/admin/book/view/search_bar_form.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -365,7 +365,7 @@
    
    <servlet>
 				    <servlet-name>Search_Book_Bar_Code</servlet-name>
-				    <jsp-file>/school/admin/book/view/Search_Book_Bar_Code.jsp</jsp-file>
+				    <jsp-file>/campus/admin/book/view/Search_Book_Bar_Code.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -376,7 +376,7 @@
    
   				<servlet>
 				    <servlet-name>Issue_History</servlet-name>
-				    <jsp-file>/school/admin/issue/view/Issue_History.jsp</jsp-file>
+				    <jsp-file>/campus/admin/issue/view/Issue_History.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -388,7 +388,7 @@
   
   				<servlet>
 				    <servlet-name>Issue_Book_Controller</servlet-name>
-				    <jsp-file>/school/admin/issue/controller/Issue_Book_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/issue/controller/Issue_Book_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -404,7 +404,7 @@
   
    				<servlet>
 				    <servlet-name>Issue_Book</servlet-name>
-				    <jsp-file>/school/admin/issue/view/Issue_Book.jsp</jsp-file>
+				    <jsp-file>/campus/admin/issue/view/Issue_Book.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -422,7 +422,7 @@
   
      <servlet>
 				    <servlet-name>Edit_Book_Controller</servlet-name>
-				    <jsp-file>/school/admin/book/controller/Edit_Book_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/book/controller/Edit_Book_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -435,7 +435,7 @@
   
     <servlet>
 				    <servlet-name>Edit_Book</servlet-name>
-				    <jsp-file>/school/admin/book/view/Edit_Book.jsp</jsp-file>
+				    <jsp-file>/campus/admin/book/view/Edit_Book.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -450,7 +450,7 @@
   
   	  <servlet>
 				    <servlet-name>Search_Book_admin</servlet-name>
-				    <jsp-file>/school/admin/book/view/Search_Book.jsp</jsp-file>
+				    <jsp-file>/campus/admin/book/view/Search_Book.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -465,7 +465,7 @@
   
      <servlet>
 				    <servlet-name>Complete_Details_Of_Student</servlet-name>
-				    <jsp-file>/school/admin/Student/view/Complete_Details_Of_Student.jsp</jsp-file>
+				    <jsp-file>/campus/admin/Student/view/Complete_Details_Of_Student.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -481,7 +481,7 @@
   
      <servlet>
 				    <servlet-name>search_student_form</servlet-name>
-				    <jsp-file>/school/admin/Student/view/search_student_form.jsp</jsp-file>
+				    <jsp-file>/campus/admin/Student/view/search_student_form.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -499,7 +499,7 @@
   
    <servlet>
 				    <servlet-name>Add_Inventry_Controller</servlet-name>
-				    <jsp-file>/school/admin/inventry/controller/Add_Inventry_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/inventry/controller/Add_Inventry_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -520,7 +520,7 @@
   
    <servlet>
 				    <servlet-name>Inventry_Books</servlet-name>
-				    <jsp-file>/school/admin/inventry/view/Inventry_Books.jsp</jsp-file>
+				    <jsp-file>/campus/admin/inventry/view/Inventry_Books.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -536,7 +536,7 @@
   
   <servlet>
 				    <servlet-name>search_book_form</servlet-name>
-				    <jsp-file>/school/admin/book/view/search_book_form.jsp</jsp-file>
+				    <jsp-file>/campus/admin/book/view/search_book_form.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -549,7 +549,7 @@
   
   <servlet>
 				    <servlet-name>Student_Search</servlet-name>
-				    <jsp-file>/school/admin/Student/view/Student_Search.jsp</jsp-file>
+				    <jsp-file>/campus/admin/Student/view/Student_Search.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -561,7 +561,7 @@
   
   <servlet>
 				    <servlet-name>Add_Student_Controller</servlet-name>
-				    <jsp-file>/school/admin/Student/controller/Add_Student_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/Student/controller/Add_Student_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -574,7 +574,7 @@
   
     <servlet>
 				    <servlet-name>Add_Student</servlet-name>
-				    <jsp-file>/school/admin/Student/view/Add_Student.jsp</jsp-file>
+				    <jsp-file>/campus/admin/Student/view/Add_Student.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -589,7 +589,7 @@
   
    <servlet>
 				    <servlet-name>Complete_Details_Of_Book</servlet-name>
-				    <jsp-file>/school/admin/book/view/Complete_Details_Of_Book.jsp</jsp-file>
+				    <jsp-file>/campus/admin/book/view/Complete_Details_Of_Book.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -605,7 +605,7 @@
   
     <servlet>
 				    <servlet-name>Search_Author</servlet-name>
-				    <jsp-file>/school/admin/author/view/Search_Author.jsp</jsp-file>
+				    <jsp-file>/campus/admin/author/view/Search_Author.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -626,7 +626,7 @@
   
   <servlet>
 				    <servlet-name>Add_Author_Controller</servlet-name>
-				    <jsp-file>/school/admin/author/controller/Add_Author_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/author/controller/Add_Author_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -645,7 +645,7 @@
   
   	<servlet>
 				    <servlet-name>Edit_Category_Controller</servlet-name>
-				    <jsp-file>/school/admin/category/controller/Edit_Category_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/category/controller/Edit_Category_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -661,7 +661,7 @@
   
   	<servlet>
 				    <servlet-name>Edit_Category</servlet-name>
-				    <jsp-file>/school/admin/category/view/Edit_Category.jsp</jsp-file>
+				    <jsp-file>/campus/admin/category/view/Edit_Category.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -682,7 +682,7 @@
   
   					<servlet>
 				    <servlet-name>Add_Author</servlet-name>
-				    <jsp-file>/school/admin/author/view/Add_Author.jsp</jsp-file>
+				    <jsp-file>/campus/admin/author/view/Add_Author.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping> 
@@ -705,7 +705,7 @@
   
    	<servlet>
 				    <servlet-name>search_category_list</servlet-name>
-				    <jsp-file>/school/admin/book/view/search_category.jsp</jsp-file>
+				    <jsp-file>/campus/admin/book/view/search_category.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping>
@@ -718,7 +718,7 @@
   
   	<servlet>
 				    <servlet-name>Search_Category</servlet-name>
-				    <jsp-file>/school/admin/category/view/Search_Category.jsp</jsp-file>
+				    <jsp-file>/campus/admin/category/view/Search_Category.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping>
@@ -731,7 +731,7 @@
 		
   				<servlet>
 				    <servlet-name>Add_Category_Controller</servlet-name>
-				    <jsp-file>/school/admin/category/controller/Add_Category_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/category/controller/Add_Category_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping>
@@ -745,7 +745,7 @@
   
   				<servlet>
 				    <servlet-name>Add_Category</servlet-name>
-				    <jsp-file>/school/admin/category/view/Add_Category.jsp</jsp-file>
+				    <jsp-file>/campus/admin/category/view/Add_Category.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping>
@@ -764,7 +764,7 @@
   
    			<servlet>
 				    <servlet-name>Add_Book_Controller</servlet-name>
-				    <jsp-file>/school/admin/book/controller/Add_Book_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/book/controller/Add_Book_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping>
@@ -778,7 +778,7 @@
   
    			<servlet>
 				    <servlet-name>ADMIN_Add_Book</servlet-name>
-				    <jsp-file>/school/admin/book/view/Add_Book.jsp</jsp-file>
+				    <jsp-file>/campus/admin/book/view/Add_Book.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping>
@@ -792,7 +792,7 @@
   
   			 <servlet>
 				    <servlet-name>Admin_Sign_In_Controller</servlet-name>
-				    <jsp-file>/school/admin/profile/controller/Admin_Sign_In_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/profile/controller/Admin_Sign_In_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping>
@@ -808,7 +808,7 @@
   
   				 <servlet>
 				    <servlet-name>Admin_Sign_Out_Controller</servlet-name>
-				    <jsp-file>/school/admin/common/Admin_Sign_Out_Controller.jsp</jsp-file>
+				    <jsp-file>/campus/admin/common/Admin_Sign_Out_Controller.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping>
@@ -820,7 +820,7 @@
   
   		 <servlet>
 				    <servlet-name>Admin_Home_Page</servlet-name>
-				    <jsp-file>/school/admin/profile/view/Admin_Home_Page.jsp</jsp-file>
+				    <jsp-file>/campus/admin/profile/view/Admin_Home_Page.jsp</jsp-file>
 				</servlet>
 				 
 				<servlet-mapping>

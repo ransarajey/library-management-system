@@ -25,7 +25,7 @@ public class Student_Table_Model {
 		int flag=0;
 		
 		
-		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Qatar"));
+		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Colombo"));
 		SimpleDateFormat format = new SimpleDateFormat("dd-MMM-yyyy hh:mm:ss a");
 		 
 		  Date today4 = new Date();
@@ -35,7 +35,7 @@ public class Student_Table_Model {
 		String query="insert into student_table (" +
 				"student_id," +
 				"student_name," +
-				"grade," +
+				"batch," +
 				"profile," +
 				"section," +
 				"added_by," +
@@ -51,7 +51,7 @@ public class Student_Table_Model {
 			ps.setString(1,obj_Sequence_Student_Id.get_student_id());
 			ps.setString(2,obj_Student_Use_Bean.getStudent_name());
 		 
-			ps.setString(3,obj_Student_Use_Bean.getGrade());
+			ps.setString(3,obj_Student_Use_Bean.getBatch());
 			ps.setString(4,obj_Student_Use_Bean.getProfile());
 			
 			
@@ -116,14 +116,14 @@ public class Student_Table_Model {
 		
 		String query="update student_table set " +
 				"student_name=?," +
-				"grade=?," +
+				"batch=?," +
 				"profile=?," +
 				"section=?," +
 				"admission_no=?," +
 				"status=? where student_id=?";
 			ps=connection.prepareStatement(query);
 			ps.setString(1,obj_Student_Use_Bean.getStudent_name());
-			ps.setString(2,obj_Student_Use_Bean.getGrade());
+			ps.setString(2,obj_Student_Use_Bean.getBatch());
 			ps.setString(3,obj_Student_Use_Bean.getProfile());
 			ps.setString(4,obj_Student_Use_Bean.getSection());
 			ps.setString(5,obj_Student_Use_Bean.getAdmission_no());
@@ -243,7 +243,7 @@ public class Student_Table_Model {
 		List<Student_Use_Bean> list=new ArrayList<Student_Use_Bean>();
 	try { 
 		
-		String query="select * from student_table where admission_no like ? or student_name like ? or profile like ? or grade like ? or section like ? order by student_name desc limit 100";
+		String query="select * from student_table where admission_no like ? or student_name like ? or profile like ? or batch like ? or section like ? order by student_name desc limit 100";
 		ps=connection.prepareStatement(query);
 		ps.setString(1, "%"+search+"%");
 		ps.setString(2, "%"+search+"%");
@@ -260,7 +260,7 @@ public class Student_Table_Model {
 			obj_Student_Use_Bean.setAdmission_no(rs.getString("admission_no"));
 			obj_Student_Use_Bean.setStudent_id(rs.getString("student_id"));
 			obj_Student_Use_Bean.setStudent_name(rs.getString("student_name"));
-			obj_Student_Use_Bean.setGrade(rs.getString("grade"));
+			obj_Student_Use_Bean.setBatch(rs.getString("batch"));
 			obj_Student_Use_Bean.setSection(rs.getString("section"));
 			obj_Student_Use_Bean.setProfile(rs.getString("profile"));
 			obj_Student_Use_Bean.setStatus(rs.getInt("status"));
@@ -317,7 +317,7 @@ public class Student_Table_Model {
 			obj_Student_Use_Bean.setAdmission_no(rs.getString("admission_no"));
 			obj_Student_Use_Bean.setStudent_id(rs.getString("student_id"));
 			obj_Student_Use_Bean.setStudent_name(rs.getString("student_name"));
-			obj_Student_Use_Bean.setGrade(rs.getString("grade"));
+			obj_Student_Use_Bean.setBatch(rs.getString("batch"));
 			obj_Student_Use_Bean.setSection(rs.getString("section"));
 			obj_Student_Use_Bean.setProfile(rs.getString("profile"));
 			obj_Student_Use_Bean.setStatus(rs.getInt("status"));
@@ -383,7 +383,7 @@ public class Student_Table_Model {
 			obj_Student_Use_Bean.setAdmission_no(rs.getString("admission_no"));
 			obj_Student_Use_Bean.setStudent_id(rs.getString("student_id"));
 			obj_Student_Use_Bean.setStudent_name(rs.getString("student_name"));
-			obj_Student_Use_Bean.setGrade(rs.getString("grade"));
+			obj_Student_Use_Bean.setBatch(rs.getString("batch"));
 			obj_Student_Use_Bean.setSection(rs.getString("section"));
 			obj_Student_Use_Bean.setProfile(rs.getString("profile"));
 			obj_Student_Use_Bean.setStatus(rs.getInt("status"));

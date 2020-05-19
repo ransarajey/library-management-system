@@ -28,7 +28,7 @@ public class Admin_Book_Table_Model {
 		int flag=0;
 		
 		
-		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Qatar"));
+		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Colombo"));
 		SimpleDateFormat format = new SimpleDateFormat("dd-MMM-yyyy hh:mm:ss a");
 		 
 		  Date today4 = new Date();
@@ -195,7 +195,7 @@ public class Admin_Book_Table_Model {
 		int flag=0;
 		
 		
-		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Qatar"));
+		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Colombo"));
 		SimpleDateFormat format = new SimpleDateFormat("dd-MMM-yyyy hh:mm:ss a");
 		 
 		  Date today4 = new Date();

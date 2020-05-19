@@ -77,7 +77,7 @@
 			</script>
 
 </head>
-<body>	
+<body style="background-image: url('<%=Common_Things.url %>/img/nsbm-2020.jpg');   background-size: cover;">	
 
 	
 		
@@ -124,10 +124,9 @@
  
 
 				            <section class="panel panel-default">
-				                <header class="panel-heading"><%=" Library Management System - MIS" %></header>
+				                <header class="panel-heading"><h4 style="text-align:center"><%="NSBM Library Management System" %></h1></header>
 				                <div class="bg-white user pd-lg">
-				                    <h6>
-				                        <strong>Welcome.</strong>Sign in to get started!</h6>
+				                    <div><div><img src="img/nsbmlogo.png" style="display: block; margin-bottom: 30px; margin-left: auto; margin-right: auto; width: 50%;"></div></div>
 				
 				                  <form name="myForm" action="<%=Common_Things.url %>/admin-sign-in" method="post" onsubmit="return validateForm()">
 									<input type="text" class="form-control mg-b-sm" name="user_name" placeholder="User Name" autofocus >
@@ -136,7 +135,7 @@
 				                        <div class="text-right mg-b-sm mg-t-sm">
 				                            <a href="#"><%="" %></a>
 				                        </div>
-				                        <button class="btn btn-info btn-block" type="submit">Sign in</button>
+				                        <button class="btn btn-success btn-block" type="submit">Sign in</button>
 				                    </form>
 				
 				                   

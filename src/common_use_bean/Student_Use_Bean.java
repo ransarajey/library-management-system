@@ -7,7 +7,7 @@ public class Student_Use_Bean {
 	private String student_id;
 	private String student_name;
 	private String profile;
-	private String grade;
+	private String batch;
 	private String section;
 	private String added_by;
 	private String added_on;
@@ -58,11 +58,11 @@ public class Student_Use_Bean {
 	public void setProfile(String profile) {
 		this.profile = profile;
 	}
-	public String getGrade() {
-		return grade;
+	public String getBatch() {
+		return batch;
 	}
-	public void setGrade(String grade) {
-		this.grade = grade;
+	public void setBatch(String batch) {
+		this.batch = batch;
 	}
 	public String getSection() {
 		return section;

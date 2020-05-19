@@ -6258,7 +6258,7 @@
 		 * Reference to internal functions for use by plug-in developers. Note that these
 		 * methods are references to internal functions and are considered to be private.
 		 * If you use these methods, be aware that they are liable to change between versions
-		 * (check the upgrade notes).
+		 * (check the upbatch notes).
 		 *  @namespace
 		 */
 		this.oApi = {
@@ -7851,7 +7851,7 @@
 		 *          { "sTitle": "Browser" },
 		 *          { "sTitle": "Platform" },
 		 *          { "sTitle": "Version" },
-		 *          { "sTitle": "Grade" }
+		 *          { "sTitle": "Batch" }
 		 *        ]
 		 *      } );
 		 *    } );
@@ -7866,14 +7866,14 @@
 		 *            "browser":  "Internet Explorer 4.0",
 		 *            "platform": "Win 95+",
 		 *            "version":  4,
-		 *            "grade":    "X"
+		 *            "batch":    "X"
 		 *          },
 		 *          {
 		 *            "engine":   "Trident",
 		 *            "browser":  "Internet Explorer 5.0",
 		 *            "platform": "Win 95+",
 		 *            "version":  5,
-		 *            "grade":    "C"
+		 *            "batch":    "C"
 		 *          }
 		 *        ],
 		 *        "aoColumns": [
@@ -7881,7 +7881,7 @@
 		 *          { "sTitle": "Browser",  "mData": "browser" },
 		 *          { "sTitle": "Platform", "mData": "platform" },
 		 *          { "sTitle": "Version",  "mData": "version" },
-		 *          { "sTitle": "Grade",    "mData": "grade" }
+		 *          { "sTitle": "Batch",    "mData": "batch" }
 		 *        ]
 		 *      } );
 		 *    } );
@@ -8457,7 +8457,7 @@
 		 *    $(document).ready( function() {
 		 *      $('#example').dataTable( {
 		 *        "fnCreatedRow": function( nRow, aData, iDataIndex ) {
-		 *          // Bold the grade for all 'A' grade browsers
+		 *          // Bold the batch for all 'A' batch browsers
 		 *          if ( aData[4] == "A" )
 		 *          {
 		 *            $('td:eq(4)', nRow).html( '<b>A</b>' );
@@ -8689,7 +8689,7 @@
 		 *    $(document).ready( function() {
 		 *      $('#example').dataTable( {
 		 *        "fnRowCallback": function( nRow, aData, iDisplayIndex, iDisplayIndexFull ) {
-		 *          // Bold the grade for all 'A' grade browsers
+		 *          // Bold the batch for all 'A' batch browsers
 		 *          if ( aData[4] == "A" )
 		 *          {
 		 *            $('td:eq(4)', nRow).html( '<b>A</b>' );
@@ -10361,7 +10361,7 @@
 		 *          { "sName": "browser", "aTargets": [ 1 ] },
 		 *          { "sName": "platform", "aTargets": [ 2 ] },
 		 *          { "sName": "version", "aTargets": [ 3 ] },
-		 *          { "sName": "grade", "aTargets": [ 4 ] }
+		 *          { "sName": "batch", "aTargets": [ 4 ] }
 		 *        ]
 		 *      } );
 		 *    } );
@@ -10375,7 +10375,7 @@
 		 *          { "sName": "browser" },
 		 *          { "sName": "platform" },
 		 *          { "sName": "version" },
-		 *          { "sName": "grade" }
+		 *          { "sName": "batch" }
 		 *        ]
 		 *      } );
 		 *    } );

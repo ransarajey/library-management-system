@@ -39,7 +39,7 @@ public class Author_Table_Model {
 		ps.setString(1,obj_Author_Use_Bean.getAuthor_name());
 		ps.setString(2,obj_Author_Use_Bean.getProfile());
 		
-		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Qatar"));
+		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Colombo"));
 		SimpleDateFormat format = new SimpleDateFormat("dd-MMM-yyyy hh:mm:ss a");
 		 
 		  Date today4 = new Date();

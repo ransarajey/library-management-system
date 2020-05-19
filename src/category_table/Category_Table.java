@@ -40,7 +40,7 @@ public class Category_Table {
 		ps.setString(1,obj_Category_Use_Bean.getCategory_name());
 		ps.setString(2,obj_Category_Use_Bean.getProfile());
 		
-		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Qatar"));
+		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Colombo"));
 		SimpleDateFormat format = new SimpleDateFormat("dd-MMM-yyyy hh:mm:ss a");
 		 
 		  Date today4 = new Date();

@@ -53,7 +53,7 @@
                         <div class="text-right mg-b-sm mg-t-sm">
                             <a href="#">Forgot password?</a>
                         </div>
-                        <button class="btn btn-info btn-block" type="submit">Sign in</button>
+                        <button class="btn btn-success btn-block" type="submit">Sign in</button>
                     </form>
 
                    

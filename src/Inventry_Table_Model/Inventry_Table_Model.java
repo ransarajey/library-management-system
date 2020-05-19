@@ -456,7 +456,7 @@ public class Inventry_Table_Model {
 		ps.setString(2, obj_Book_Use_Bean.getBook_title());
 		ps.setInt(3, obj_Book_Use_Bean.getTotal_book_in_library());
 		 
-		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Qatar"));
+		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Colombo"));
 		SimpleDateFormat format = new SimpleDateFormat("dd-MMM-yyyy hh:mm:ss a");
 		 
 		  Date today4 = new Date();

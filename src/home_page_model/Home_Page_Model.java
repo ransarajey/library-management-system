@@ -52,7 +52,7 @@ public class Home_Page_Model {
 			obj_Home_Page_Use_Bean.setStudent_count(rs.getInt(1));
 		}
 		
-		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Qatar"));
+		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Colombo"));
 		SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy");
 		 
 		  Date today4 = new Date();
