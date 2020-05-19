@@ -160,7 +160,7 @@
                                                 <td><%=obj_Issue_Use_Bean.getAdmission_no() %></td>
                                                <td> 
                                                
-                                                <a href="<%=Common_Things.url %>/complete-details-student/?lm=<%=obj_Issue_Use_Bean.getStudent_id() %>" class="btn btn-primary btn-xs"><%=obj_Issue_Use_Bean.getStudent_name() %></a> 
+                                                <a href="<%=Common_Things.url %>/complete-details-student/?lm=<%=obj_Issue_Use_Bean.getStudent_id() %>" class="btn btn-success btn-xs"><%=obj_Issue_Use_Bean.getStudent_name() %></a> 
                                                </td>
                                                <td><%=obj_Issue_Use_Bean.getIssue_date() %></td>
                                                <td><%

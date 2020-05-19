@@ -8,7 +8,7 @@ public class Student_Use_Bean {
 	private String student_name;
 	private String profile;
 	private String batch;
-	private String section;
+	private String course;
 	private String added_by;
 	private String added_on;
 	
@@ -64,11 +64,11 @@ public class Student_Use_Bean {
 	public void setBatch(String batch) {
 		this.batch = batch;
 	}
-	public String getSection() {
-		return section;
+	public String getCourse() {
+		return course;
 	}
-	public void setSection(String section) {
-		this.section = section;
+	public void setCourse(String course) {
+		this.course = course;
 	}
 	
 	

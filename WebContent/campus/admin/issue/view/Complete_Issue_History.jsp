@@ -265,7 +265,7 @@
                                 	                                    
                                    			  <tr>
                                                 <td><%=temp_count++ %></td>
-                                                 <td> <a href="<%=Common_Things.url %>/complete-details-student/?lm=<%=obj_Issue_Use_Bean.getStudent_id() %>" class="btn btn-primary btn-xs"><%=obj_Issue_Use_Bean.getStudent_name() %></a>          </td>
+                                                 <td> <a href="<%=Common_Things.url %>/complete-details-student/?lm=<%=obj_Issue_Use_Bean.getStudent_id() %>" class="btn btn-success btn-xs"><%=obj_Issue_Use_Bean.getStudent_name() %></a>          </td>
                                                <td><%=obj_Issue_Use_Bean.getBook_title() %></td>
                                                <td> 
                                                <%=obj_Issue_Use_Bean.getBarcode() %>

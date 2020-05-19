@@ -87,7 +87,7 @@ public class Create_Table {
 						"student_name varchar(300) not null," +
 						"profile varchar(30000)," + 
 						"batch varchar(300)," +
-						"section varchar(300)," +
+						"course varchar(300)," +
 						"added_by varchar(300)," +
 						"added_on varchar(300)," +
 						"status int(1) not null," +

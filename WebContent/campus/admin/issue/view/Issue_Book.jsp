@@ -86,8 +86,7 @@
                             <h3 class="no-margin">Issue Book :<%=obj_Book_Use_Bean.getBook_title() %></h3>
                              
                         </div> 
-                          <a href="<%=Common_Things.url %>/add-student/?kou=<%="232323243kihnadfhlacfhdkaudfhnakcdfchakdfhbkavhdfhna" %>" class="btn btn-success">Add Student</a>
-                        <a href="<%=Common_Things.url %>/student-search/?kou=<%=12 %>" class="btn btn-success">Search Student</a>
+                     
                      
                     </div>             
 
@@ -257,7 +256,7 @@
                                                 <th>Admission No </th>
                                                 <th>Name</th>
                                                 <th>Batch</th>
-                                                <th>Section</th>
+                                                <th>Course</th>
                                                  <th>Status</th>
                                                 
                                             </tr>
@@ -286,7 +285,7 @@
                                                 <td><%=obj_Student_Use_Bean.getAdmission_no() %></td>
                                                <td> <a href="<%=Common_Things.url %>/complete-details-student/?lm=<%=obj_Student_Use_Bean.getStudent_id() %>" class="btn btn-primary btn-outline btn-rounded"><%=obj_Student_Use_Bean.getStudent_name() %></a>          </td>
                                                <td><%=obj_Student_Use_Bean.getBatch() %></td>
-                                               <td><%=obj_Student_Use_Bean.getSection() %></td>
+                                               <td><%=obj_Student_Use_Bean.getCourse() %></td>
                                                <td><%if(obj_Student_Use_Bean.getStatus()==1){
                                             	 		  out.println("Active");
 	                                               }else{

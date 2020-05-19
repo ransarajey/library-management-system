@@ -53,9 +53,9 @@
 		        return false;
 		    }
 
-		    var x = document.forms["myForm"]["section"].value;
+		    var x = document.forms["myForm"]["course"].value;
 		    if (x==null || x=="") {
-		        alert("Please enter Section");
+		        alert("Please enter Course");
 		        return false;
 		    }
 
@@ -185,9 +185,9 @@
                                                         
                                                         
                                                          <div class="form-group">
-                                                            <label for="inputEmail3" class="col-sm-2 control-label">Section</label>
+                                                            <label for="inputEmail3" class="col-sm-2 control-label">Course</label>
                                                             <div class="col-sm-10">
-                                                                <input type="text" class="form-control" placeholder="Section" name="section">
+                                                                <input type="text" class="form-control" placeholder="Course" name="course">
                                                             </div>
                                                         </div>
                                                        
@@ -230,7 +230,7 @@
 
 
                                                   <div class="col-lg-4">
-                                            <section class="panel panel-primary">
+                                            <course class="panel panel-primary">
                                 <div class="panel-heading">Recently Added Students 
                                     
                                 </div>
@@ -243,22 +243,23 @@
                                 	Student_Table_Model obj_Student_Table_Model=new Student_Table_Model(); 
                               	List<Student_Use_Bean> list_students=obj_Student_Table_Model.get_all_recently_added_students();
             	                                	
-            	                                	
+                                                    int stuCou = 0;	
             	                                	if(list_students!=null){
             	                                		Iterator<Student_Use_Bean> it_list_students=list_students.iterator();
             	                                		Student_Use_Bean obj_Student_Use_Bean=new Student_Use_Bean();
             	                                		while(it_list_students.hasNext()){
             	                                			obj_Student_Use_Bean=it_list_students.next();
+            	                                			stuCou++;
                                     	%>
                                 	
                                 	  <li class="list-group-item">
                                         <span class="pull-left mg-t-xs mg-r-md">
-                                           1.
+                                           <%=stuCou %>
                                         </span>
                                         <div class="show no-margin pd-t-xs">
                                             
                                            
-                                       <a href="<%=Common_Things.url %>/complete-details-student/?lm=<%=obj_Student_Use_Bean.getStudent_id() %>" class="btn btn-primary btn-xs"><%=obj_Student_Use_Bean.getStudent_name() %></a>  </div>
+                                       <a href="<%=Common_Things.url %>/complete-details-student/?lm=<%=obj_Student_Use_Bean.getStudent_id() %>" class="btn btn-success btn-xs"><%=obj_Student_Use_Bean.getStudent_name() %></a>  </div>
                                          
                                     </li>
                                    

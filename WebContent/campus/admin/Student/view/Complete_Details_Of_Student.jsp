@@ -161,9 +161,9 @@
                                                         
                                                         
                                                          <div class="form-group">
-                                                            <label for="inputEmail3" class="col-sm-2 control-label">Section</label>
+                                                            <label for="inputEmail3" class="col-sm-2 control-label">Course</label>
                                                             <div class="col-sm-10">
-                                                                <input type="text" class="form-control" placeholder="Section" name="section" value="<%if(obj_Student_Use_Bean.getSection()!=null){out.println(obj_Student_Use_Bean.getSection());} %>" readonly="readonly">
+                                                                <input type="text" class="form-control" placeholder="Course" name="course" value="<%if(obj_Student_Use_Bean.getCourse()!=null){out.println(obj_Student_Use_Bean.getCourse());} %>" readonly="readonly">
                                                             </div>
                                                         </div>
                                                        
@@ -173,7 +173,7 @@
                                                               <div class="form-group">
                                                             <label for="inputEmail3" class="col-sm-2 control-label">Status</label>
                                                             <div class="col-sm-10">
-                                                                <input type="text" class="form-control" placeholder="Section" name="section" value="<%if(obj_Student_Use_Bean.getStatus()==1){out.println("Active");}else{out.println("Not Active");} %>" readonly="readonly">
+                                                                <input type="text" class="form-control" placeholder="Course" name="course" value="<%if(obj_Student_Use_Bean.getStatus()==1){out.println("Active");}else{out.println("Not Active");} %>" readonly="readonly">
                                                             </div>
                                                         </div>
                                                        

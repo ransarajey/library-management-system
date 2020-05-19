@@ -37,7 +37,7 @@ public class Student_Table_Model {
 				"student_name," +
 				"batch," +
 				"profile," +
-				"section," +
+				"course," +
 				"added_by," +
 				"added_on,admission_no,status" +
 				") values(?,?,?,?," +
@@ -56,7 +56,7 @@ public class Student_Table_Model {
 			
 			
 			
-			ps.setString(5,obj_Student_Use_Bean.getSection());
+			ps.setString(5,obj_Student_Use_Bean.getCourse());
 		
 			ps.setString(6,obj_Student_Use_Bean.getAdded_by());
 			
@@ -118,14 +118,14 @@ public class Student_Table_Model {
 				"student_name=?," +
 				"batch=?," +
 				"profile=?," +
-				"section=?," +
+				"course=?," +
 				"admission_no=?," +
 				"status=? where student_id=?";
 			ps=connection.prepareStatement(query);
 			ps.setString(1,obj_Student_Use_Bean.getStudent_name());
 			ps.setString(2,obj_Student_Use_Bean.getBatch());
 			ps.setString(3,obj_Student_Use_Bean.getProfile());
-			ps.setString(4,obj_Student_Use_Bean.getSection());
+			ps.setString(4,obj_Student_Use_Bean.getCourse());
 			ps.setString(5,obj_Student_Use_Bean.getAdmission_no());
 			ps.setInt(6,obj_Student_Use_Bean.getStatus());
 			ps.setString(7,obj_Student_Use_Bean.getStudent_id());
@@ -243,7 +243,7 @@ public class Student_Table_Model {
 		List<Student_Use_Bean> list=new ArrayList<Student_Use_Bean>();
 	try { 
 		
-		String query="select * from student_table where admission_no like ? or student_name like ? or profile like ? or batch like ? or section like ? order by student_name desc limit 100";
+		String query="select * from student_table where admission_no like ? or student_name like ? or profile like ? or batch like ? or course like ? order by student_name desc limit 100";
 		ps=connection.prepareStatement(query);
 		ps.setString(1, "%"+search+"%");
 		ps.setString(2, "%"+search+"%");
@@ -261,7 +261,7 @@ public class Student_Table_Model {
 			obj_Student_Use_Bean.setStudent_id(rs.getString("student_id"));
 			obj_Student_Use_Bean.setStudent_name(rs.getString("student_name"));
 			obj_Student_Use_Bean.setBatch(rs.getString("batch"));
-			obj_Student_Use_Bean.setSection(rs.getString("section"));
+			obj_Student_Use_Bean.setCourse(rs.getString("course"));
 			obj_Student_Use_Bean.setProfile(rs.getString("profile"));
 			obj_Student_Use_Bean.setStatus(rs.getInt("status"));
 			list.add(obj_Student_Use_Bean);
@@ -318,7 +318,7 @@ public class Student_Table_Model {
 			obj_Student_Use_Bean.setStudent_id(rs.getString("student_id"));
 			obj_Student_Use_Bean.setStudent_name(rs.getString("student_name"));
 			obj_Student_Use_Bean.setBatch(rs.getString("batch"));
-			obj_Student_Use_Bean.setSection(rs.getString("section"));
+			obj_Student_Use_Bean.setCourse(rs.getString("course"));
 			obj_Student_Use_Bean.setProfile(rs.getString("profile"));
 			obj_Student_Use_Bean.setStatus(rs.getInt("status"));
 			
@@ -384,7 +384,7 @@ public class Student_Table_Model {
 			obj_Student_Use_Bean.setStudent_id(rs.getString("student_id"));
 			obj_Student_Use_Bean.setStudent_name(rs.getString("student_name"));
 			obj_Student_Use_Bean.setBatch(rs.getString("batch"));
-			obj_Student_Use_Bean.setSection(rs.getString("section"));
+			obj_Student_Use_Bean.setCourse(rs.getString("course"));
 			obj_Student_Use_Bean.setProfile(rs.getString("profile"));
 			obj_Student_Use_Bean.setStatus(rs.getInt("status"));
 			list.add(obj_Student_Use_Bean);

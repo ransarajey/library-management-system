@@ -124,7 +124,7 @@
  
 
 				            <section class="panel panel-default">
-				                <header class="panel-heading"><h4 style="text-align:center"><%="NSBM Library Management System" %></h1></header>
+				                <header class="panel-heading"><h4 style="text-align:center; font-weight:700;">NSBM Library Management System</h1></header>
 				                <div class="bg-white user pd-lg">
 				                    <div><div><img src="img/nsbmlogo.png" style="display: block; margin-bottom: 30px; margin-left: auto; margin-right: auto; width: 50%;"></div></div>
 				

@@ -286,18 +286,19 @@
                                 	<%
                                                                                                                                                                 		Admin_Book_Table_Model obj_Admin_Book_Table_Model=new Admin_Book_Table_Model(); 
                                                                                                                                                                 	                                	List<Book_Use_Bean> list_books=obj_Admin_Book_Table_Model.get_all_recently_added_books();
-                                                                                                                                                                	                                	
+                                                            		 int bookCount=0;
                                                                                                                                                                 	                                	
                                                                                                                                                                 	                                	if(list_books!=null){
                                                                                                                                                                 	                                		Iterator<Book_Use_Bean> it_list_books=list_books.iterator();
                                                                                                                                                                 	                                		Book_Use_Bean obj_Book_Use_Bean=new Book_Use_Bean();
                                                                                                                                                                 	                                		while(it_list_books.hasNext()){
                                                                                                                                                                 	                                			obj_Book_Use_Bean=it_list_books.next();
+                                                                                                                                                                	                                			bookCount++;
                                                                                                                                                                 	%>
                                 	
                                 	  <li class="list-group-item">
                                         <span class="pull-left mg-t-xs mg-r-md">
-                                           1.
+                                           <%=bookCount %>
                                         </span>
                                         <div class="show no-margin pd-t-xs">
                                             

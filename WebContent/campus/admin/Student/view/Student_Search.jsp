@@ -234,7 +234,7 @@
                                                 <th>Admission No </th>
                                                 <th>Name</th>
                                                 <th>Batch</th>
-                                                <th>Section</th>
+                                                <th>Course</th>
                                                  <th>Status</th>
                                                 
                                             </tr>
@@ -261,9 +261,9 @@
                                    			 <tr>
                                                 <td><%=temp_count++ %></td>
                                                 <td><%=obj_Student_Use_Bean.getAdmission_no() %></td>
-                                               <td> <a href="<%=Common_Things.url %>/complete-details-student/?lm=<%=obj_Student_Use_Bean.getStudent_id() %>" class="btn btn-primary btn-xs"><%=obj_Student_Use_Bean.getStudent_name() %></a>          </td>
+                                               <td> <a href="<%=Common_Things.url %>/complete-details-student/?lm=<%=obj_Student_Use_Bean.getStudent_id() %>" class="btn btn-success btn-xs"><%=obj_Student_Use_Bean.getStudent_name() %></a>          </td>
                                                <td><%=obj_Student_Use_Bean.getBatch() %></td>
-                                               <td><%=obj_Student_Use_Bean.getSection() %></td>
+                                               <td><%=obj_Student_Use_Bean.getCourse() %></td>
                                                <td><%if(obj_Student_Use_Bean.getStatus()==1){
                                             	 		  out.println("Active");
 	                                               }else{
